@@ -4,9 +4,9 @@
 <head>
     <title>Dashboard Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS FILE/home.css">
 </head>
 
 <body>
@@ -40,62 +40,41 @@
                                 aria-label="Slide 3"></button>
                         </div>
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="image/img.jpg" class="d-block w-100" alt="Breaking News">
+                            <div class="carousel-item  active">
+                                <img src="image/news.jpg" class="d-block imgResize" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Breaking News</h5>
                                     <p>Some representative placeholder content for the first slide.</p>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="image/image1.jpg" class="d-block w-100" alt="Breaking News">
+                            <div class="carousel-item ">
+                                <img src="image/news.jpg"" class="d-block imgResize" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Breaking News</h5>
                                     <p>Some representative placeholder content for the second slide.</p>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="image/img.jpg" class="d-block w-100" alt="Breaking News">
+                            <div class="carousel-item ">
+                                <img src="image/news.jpg" class="d-block imgResize" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Breaking News</h5>
                                     <p>Some representative placeholder content for the third slide.</p>
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        <button class="carousel-control-prev but" type="button" data-bs-target="#carouselExampleCaptions"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        <button class="carousel-control-next but" type="button" data-bs-target="#carouselExampleCaptions"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
+                           
                         </button>
                     </div>
 
-
-           <!-- <div id="slideshow-container">
-          <div class="slide">
-            <img  src="image/img.jpg" alt="Slide 1">
-            <div class="slideshow-caption">Breaking News</div>
-          </div>
-          <div class="slide">
-            <img src="image/image1.jpg" alt="Slide 2">
-            <div class="slideshow-caption">Breaking News</div>
-          </div>
-          <div class="slide">
-            <img src="image/img.jpg" alt="Slide 3">
-            <div class="slideshow-caption">Breaking News</div>
-          </div>
-          <div class="slide">
-            <img src="image/image1.jpg" alt="Slide 4">
-            <div class="slideshow-caption">Breaking News</div>
-          </div>
-        </div> -->
-
-                    <!-- ******* Slide Bar ********** -->
-
+                    <!-- ******* Slide Bar ends ********** -->
+                    <div class="my-5">
                     <h2>Employee Details</h2>
                     <table class="table">
                         <thead>
@@ -122,8 +101,10 @@
                             <!-- Add more rows as needed -->
                         </tbody>
                     </table>
+                </div>
 
                     <!-- ****** emp list ********* -->
+                    <div class="my-5">
                     <h2>Employee list</h2>
                     <ul class="employee-list">
                         <li>
@@ -148,6 +129,7 @@
                         </li>
                         <!-- Add more employees as needed -->
                     </ul>
+                    </div>
 
                     <!-- ****** emp list ********* -->
                 </div>
