@@ -16,7 +16,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-2 blk p-0">
+            <div class="col-md-2 p-0 "style="background-color: black;">
                 <div class="menu-section">
                     <div class="menu-content">
                         <img src="image/img.jpg" alt="Profile Image" class="profile-image">
@@ -49,14 +49,14 @@
                             </div>
                         </div>
                         <div class="carousel-item ">
-                            <img src="image/news.jpg"" class=" d-block imgResize" alt="...">
+                            <img src="image/news.jpg"" class=" d-block imgResize" alt="Breaking news">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Breaking News</h5>
                                 <p>Some representative placeholder content for the second slide.</p>
                             </div>
                         </div>
                         <div class="carousel-item ">
-                            <img src="image/img.jpg" class="d-block imgResize" alt="...">
+                            <img src="image/img.jpg" class="d-block imgResize" alt="breaking News">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Breaking News</h5>
                                 <p>Some representative placeholder content for the third slide.</p>
