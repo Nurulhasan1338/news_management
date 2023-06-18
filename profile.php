@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="css_file/profile.css">
 </head>
 
-<body class="magicpattern">
+<body class="magic">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-2 blk">
+            <div class="col-md-2 p-0">
                 <div class="menu-section">
                     <div class="menu-content">
                         <img src="image/img.jpg" alt="Profile Image" class="profile-image">
