@@ -126,7 +126,7 @@
                 <!-- ****** emp list ********* -->
                 <div class="container mt-2 p-4">
                     <h2 class="text-center display-3 p-3 text-light">Employee list</h2>
-                    <div class="row row-cols-3">
+                    <div class="row row-cols-3 mobileform">
                         <div class="card col m-3 p-0" style="width: 18rem;">
                             <img src="image/image1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">

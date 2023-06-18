@@ -97,6 +97,10 @@ overflow-y: auto;
       max-width: 100%;
 
     }
+    .mobileform{
+      display: flex;
+      justify-content: center;
+    }
 
     .right-section {
       margin-left: 0;

@@ -59,23 +59,25 @@ color: rgba(5, 5, 5, 0.8);
   
 
   /* Media queries for tablet and smaller devices */
-  @media (min-width: 991.98px) {
+  @media (min-width: 600.98px) {
     
     .right-section {
       height: 100vh;
 overflow-y: auto;
     }
+
   }
 
-  @media (max-width: 991.98px) {
+  @media (max-width: 600.98px) {
     .menu-section {
       width: 100%;
       max-width: 100%;
 
     }
-
-    .right-section {
-      margin-left: 0;
-      overflow: visible;
+    .imgResize{
+    width: 100%;
+    height: 24rem;
+    padding: 14px;
+    margin-top: 60px;
     }
   }
