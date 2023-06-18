@@ -1,0 +1,77 @@
+  /* <!-- ****** emp list ********* --> */
+  .employee-list {
+margin-top: 20px;
+list-style: none;
+padding: 0;
+}
+
+.employee-list li {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease-in-out;
+}
+
+.employee-list li:hover {
+transform: translateY(-5px);
+}
+
+.employee-photo {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+overflow: hidden;
+margin-right: 10px;
+}
+
+.employee-photo img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.employee-details {
+flex-grow: 1;
+}
+
+.employee-name {
+color: black;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+.employee-email {
+color: rgba(5, 5, 5, 0.8);
+margin-bottom: 5px;
+}
+
+.employee-position {
+color: rgba(5, 5, 5, 0.8);
+}
+
+
+ /* <!-- ****** emp list ********* --> */
+  
+
+  /* Media queries for tablet and smaller devices */
+  @media (min-width: 991.98px) {
+    
+    .right-section {
+      height: 100vh;
+overflow-y: auto;
+    }
+  }
+
+  @media (max-width: 991.98px) {
+    .menu-section {
+      width: 100%;
+      max-width: 100%;
+
+    }
+
+    .right-section {
+      margin-left: 0;
+      overflow: visible;
+    }
+  }
