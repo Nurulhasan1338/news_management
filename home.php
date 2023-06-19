@@ -16,7 +16,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-2 p-0 "style="background-color: black;">
+            <div class="col-lg-2 col-md-3 p-0 "style="background-color: black;">
                 <div class="menu-section">
                     <div class="menu-content">
                         <img src="image/img.jpg" alt="Profile Image" class="profile-image">
@@ -29,9 +29,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-10 magic">
+            <div class="col-lg-10 col-md-9 magic">
                 <!-- ******* Slide Bar ********** -->
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleCaptions mt-md-4" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
                             class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -126,7 +126,109 @@
                 <!-- ****** emp list ********* -->
                 <div class="container mt-2 p-4">
                     <h2 class="text-center display-3 p-3 text-light">Employee list</h2>
-                    <div class="row row-cols-3 mobileform">
+                    <div class="row row-cols-auto mobileform">
+                        <div class="card col m-3 p-0" style="width: 18rem;">
+                            <img src="image/image1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Name</h5>
+                                <p class="card-text">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <strong>Email : </strong>sfsdf@gmail.com
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Position: </strong>developer
+                                    </li>
+                                </ul>
+                                </p>
+                                <a href="#" class="btn btn-success">contact</a>
+                            </div>
+                        </div>
+                        <div class="card col m-3 p-0" style="width: 18rem;">
+                            <img src="image/image1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Name</h5>
+                                <p class="card-text">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <strong>Email : </strong>sfsdf@gmail.com
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Position: </strong>developer
+                                    </li>
+                                </ul>
+                                </p>
+                                <a href="#" class="btn btn-success">contact</a>
+                            </div>
+                        </div>
+                        <div class="card col m-3 p-0" style="width: 18rem;">
+                            <img src="image/image1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Name</h5>
+                                <p class="card-text">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <strong>Email : </strong>sfsdf@gmail.com
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Position: </strong>developer
+                                    </li>
+                                </ul>
+                                </p>
+                                <a href="#" class="btn btn-success">contact</a>
+                            </div>
+                        </div>
+                        <div class="card col m-3 p-0" style="width: 18rem;">
+                            <img src="image/image1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Name</h5>
+                                <p class="card-text">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <strong>Email : </strong>sfsdf@gmail.com
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Position: </strong>developer
+                                    </li>
+                                </ul>
+                                </p>
+                                <a href="#" class="btn btn-success">contact</a>
+                            </div>
+                        </div>
+                        <div class="card col m-3 p-0" style="width: 18rem;">
+                            <img src="image/image1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Name</h5>
+                                <p class="card-text">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <strong>Email : </strong>sfsdf@gmail.com
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Position: </strong>developer
+                                    </li>
+                                </ul>
+                                </p>
+                                <a href="#" class="btn btn-success">contact</a>
+                            </div>
+                        </div>
+                        <div class="card col m-3 p-0" style="width: 18rem;">
+                            <img src="image/image1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Name</h5>
+                                <p class="card-text">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <strong>Email : </strong>sfsdf@gmail.com
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Position: </strong>developer
+                                    </li>
+                                </ul>
+                                </p>
+                                <a href="#" class="btn btn-success">contact</a>
+                            </div>
+                        </div>
                         <div class="card col m-3 p-0" style="width: 18rem;">
                             <img src="image/image1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">

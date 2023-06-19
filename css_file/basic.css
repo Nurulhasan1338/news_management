@@ -24,6 +24,8 @@ label{
   .menu-content {
     padding: 20px;
     text-align: center;
+    position: fixed;
+    margin-left: 29px;
   }
 
   .profile-image {
@@ -74,7 +76,10 @@ font-weight: bold;
 margin-bottom: 20px;
 }
 
-
+.mobileform{
+  display: flex;
+  justify-content: center;
+}
 .ck-editor .ck-editor__main .ck-editor__editable{
       height: 400px;
   } 
@@ -82,7 +87,7 @@ margin-bottom: 20px;
 
 
   /* Media queries for tablet and smaller devices */
-  @media (min-width: 600.98px) {
+  @media (min-width: 900.98px) {
     
     .right-section {
   height: 100vh;
@@ -90,17 +95,18 @@ overflow-y: auto;
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     .menu-section {
       width: 100%;
-      min-height: 50vh;
+      min-height: 34vh;
       max-width: 100%;
 
     }
-    .mobileform{
-      display: flex;
-      justify-content: center;
+    .menu-content{
+    position: relative;
+    margin-left: 0px;
     }
+    
 
     .right-section {
       margin-left: 0;

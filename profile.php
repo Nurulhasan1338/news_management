@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
     </script>
+    <script src="https://kit.fontawesome.com/7b463d0039.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css_file/basic.css">
     <link rel="stylesheet" href="css_file/profile.css">
 </head>
@@ -39,19 +40,19 @@
                     <div class="col-md-8">
                         <div class="profile-details">
                           <div class="fs-3 block">
-                            <label for="" class="fw-bolder me-3">Name: </label><span  id="name">John</span>
+                            <label for="" class="fw-bolder me-3"><i class="fa-regular fa-user fa-beat me-3"></i>Name: </label><span  id="name">John</span>
                           </div>  
                           <div class="fs-3 block">  
-                            <label for="" class="fw-bolder me-3">Email:</label><span id="email">john.doe@example.com</span>
+                            <label for=""class="fw-bolder me-3"> <i class="fa-regular fa-envelope fa-beat me-3" style="color: #9aa0ac;"></i>Email:</label><span id="email">john.doe@example.com</span>
                           </div>
                           <div class="fs-3 block"> 
-                            <label for="" class="fw-bolder me-3">Phone </label><span id="phone">1234567890</span>
+                            <label for="" class="fw-bolder me-3"> <i class="fa-regular fa-phone fa-beat me-3" style="color: #7a8699;"></i>Phone </label><span id="phone">1234567890</span>
                           </div>
                           <div class="fs-3 block">
-                            <label for="" class="fw-bolder me-3">Position:</label><span id="position">Manager</span>
+                            <label for="" class="fw-bolder me-3"><i class="fa-sharp fa-solid fa-address-card fa-beat me-3"></i>Position:</label><span id="position">Manager</span>
                           </div>
                           <div class="fs-3 block">
-                          <label for="" class="fw-bolder me-3">Address: </label><span id="addrerss">123 Main St, City, State</span>
+                          <label for="" class="fw-bolder me-3"><i class="fa-sharp fa-regular fa-location-dot fa-beat me-3" style="color: #97989b;"></i>Address: </label><span id="addrerss">123 Main St, City, State</span>
                           </div>
                         </div>
                     </div>
