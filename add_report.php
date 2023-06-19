@@ -3,6 +3,7 @@
 <head>
   <title>Dashboard Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -18,11 +19,24 @@
 </head>
 <body class="magic">
 
+=======
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="../ckeditor/ckeditor.js"></script>
+  <link rel="stylesheet" href="./css_file/menu.css">
+ 
+</head>
+<body>
+>>>>>>> parent of 50f792a (modified home.php and profile.php)
   <div class="container-fluid">
     <!------------------------------ left section---------------------------------------- -->
 
     <div class="row">
+<<<<<<< HEAD
       <div class="col-lg-2 col-md-3 p-0">
+=======
+      <div class="col-md-2 blk">
+>>>>>>> parent of 50f792a (modified home.php and profile.php)
         <div class="menu-section">
           <div class="menu-content">
             <img src="image/img.jpg" alt="Profile Image" class="profile-image">
