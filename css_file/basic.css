@@ -22,12 +22,13 @@ label{
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    overflow-y: hidden;
+    
   }
 
   .menu-content {
     padding: 20px;
     text-align: center;
+    position:fixed;
 
   }
   .menu-content a {
