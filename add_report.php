@@ -18,12 +18,13 @@
     <link rel="stylesheet" href="./css_file/basic.css" />
     <style>
       .right-section {
-        width: 80%;
-        background: #2c3c7863;
-        color: white;
+        width: 90%;
+        background-color: #000000a2;
+        color: rgb(255, 255, 255);
         border-radius: 2%;
-        height: 75vh;
-        overflow-y: hidden;
+        height: auto;
+        overflow-x: hidden;
+        
       }
       .submit {
         padding-left: 44px;
@@ -39,11 +40,8 @@
       @media (max-width: 1000px) {
         .right-section {
           width: 95%;
-          background: #2c3c7863;
-          color: white;
-          border-radius: 2%;
+        
           height: auto;
-          overflow-y: hidden;
           margin-bottom: 2rem;
           padding-right: 3rem;
         }
@@ -59,7 +57,7 @@
   <body class="magic">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-2 p-0">
+        <div class="col-lg-2 left-section">
           <div class="menu-section">
             <div class="menu-content">
               <img
@@ -77,7 +75,7 @@
           </div>
         </div>
         <div class="col-lg-10 d-flex flex-column align-items-center pt-3">
-          <h2 class="display-2 section-title text-light">Add News</h2>
+          <h2 class="display-4 section-title ">Add News</h2>
           <div class="right-section">
             <form class="item-form slide-in">
               <div class="row gy-3 gx-3 p-lg-3">
@@ -182,36 +180,36 @@
                       />
                     </div>
                   </div>
-
-                  <div class="row gy-3">
-                    <div class="col-lg-11 form-group my-1">
-                      <label for="formFileMultiple" class="form-label"
-                        >Images</label
-                      >
-                      <input
-                        class="form-control"
-                        type="file"
-                        id="formFileMultiple"
-                        accept="image/*"
-                        multiple
-                      />
-                    </div>
-                    <div class="col-lg-11 form-group my-1">
-                      <label for="formFileMultiple" class="form-label"
-                        >Vedios</label
-                      >
-                      <input
-                        class="form-control"
-                        type="file"
-                        id="formFileMultiple"
-                        accept="vedio/*"
-                        multiple
-                      />
-                    </div>
+                </div>
+                <div class="col">
+                  <div class="col-lg-11 form-group my-1">
+                    <label for="formFileMultiple" class="form-label"
+                      >Images</label
+                    >
+                    <input
+                      class="form-control"
+                      type="file"
+                      id="formFileMultiple"
+                      accept="image/*"
+                      multiple
+                    />
+                  </div>
+                  <div class="col-lg-11 form-group my-1">
+                    <label for="formFileMultiple" class="form-label"
+                      >Vedios</label
+                    >
+                    <input
+                      class="form-control"
+                      type="file"
+                      id="formFileMultiple"
+                      accept="vedio/*"
+                      multiple
+                    />
                   </div>
                 </div>
-
-                <div class="col form-group">
+              </div>
+              <div class="row submit">
+                <div class="col-lg-12 form-group">
                   <textarea
                     class="form-control"
                     id="pageGraph"
@@ -220,8 +218,8 @@
                   ></textarea>
                 </div>
               </div>
-              <div class="row submit">
-                <button type="submit" class="col-lg-6 btn btn-primary">
+              <div class="row p-lg-3 d-flex justify-content-center">
+                <button type="submit" class="col-lg-4 btn btn-primary">
                   Submit
                 </button>
               </div>
@@ -261,7 +259,7 @@
         menubar: false,
         statusbar: false,
         width: "100%",
-        height: 350,
+        height: 500,
       });
     </script>
   </body>
