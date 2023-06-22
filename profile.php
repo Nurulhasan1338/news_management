@@ -15,6 +15,19 @@
     <style>
         #profile-detail{
             margin-top: 0px;
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .detl{
+          background-color: rgba(0, 0, 0, 0.454);
+          width: 90%;
+        }
+        .img-fluid{
+            padding: 1rem;
+            width: 100vh;
+            height: 350px;
         }
         @media (max-width: 1000px){
             #profile-detail{
@@ -23,8 +36,14 @@
             justify-content: center;
         
         }
+        .detl{
+          background-color: rgba(0, 0, 0, 0.454);
+          width: 90%;
+        }
         .img-fluid{
             padding: 1rem;
+            width: 100%;
+           
         }
         }
     </style>
@@ -50,25 +69,25 @@
                 <div class="row shadow rounded detl">
                     <div class="col-md-4">
                         <div class="d-flex justify-content-center align-items-center">
-                            <img src="image/img.jpg" class="img-fluid rounded-circle" alt="Employee Profile">
+                            <img src="image/image1.jpg" class=" img-fluid rounded-circle" alt="Employee Image">
                         </div>
                     </div>
                     <div class="col-md-8" id="profile-detail">
                         <div class="profile-details">
-                          <div class="fs-3 block">
-                            <label for="" class="fw-bolder me-3"><i class="fa-regular fa-user fa-beat me-3"></i>Name: </label><span  id="name">John</span>
+                          <div class="fs-3 block ">
+                            <label for="" class="fw-bolder me-3 text-dark "><i class="fa-regular fa-user fa-beat me-3"></i>Name: </label><span  id="name">John</span>
                           </div>  
                           <div class="fs-3 block">  
-                            <label for=""class="fw-bolder me-3"> <i class="fa-regular fa-envelope fa-beat me-3" style="color: #9aa0ac;"></i>Email:</label><span id="email">john.doe@example.com</span>
+                            <label for=""class="fw-bolder me-3 text-dark"> <i class="fa-regular fa-envelope fa-beat me-3"></i>Email:</label><span id="email">john.doe@example.com</span>
                           </div>
                           <div class="fs-3 block"> 
-                            <label for="" class="fw-bolder me-3"> <i class="fa-regular fa-phone fa-beat me-3" style="color: #7a8699;"></i>Phone </label><span id="phone">1234567890</span>
+                            <label for="" class="fw-bolder me-3 text-dark"> <i class="fa-regular fa-phone fa-beat me-3"></i>Phone </label><span id="phone">1234567890</span>
                           </div>
                           <div class="fs-3 block">
-                            <label for="" class="fw-bolder me-3"><i class="fa-sharp fa-solid fa-address-card fa-beat me-3"></i>Position:</label><span id="position">Manager</span>
+                            <label for="" class="fw-bolder me-3 text-dark"><i class="fa-sharp fa-solid fa-address-card fa-beat me-3"></i>Position:</label><span id="position">Manager</span>
                           </div>
                           <div class="fs-3 block">
-                          <label for="" class="fw-bolder me-3"><i class="fa-sharp fa-regular fa-location-dot fa-beat me-3" style="color: #97989b;"></i>Address: </label><span id="addrerss">123 Main St, City, State</span>
+                          <label for="" class="fw-bolder me-3 text-dark"><i class="fa-sharp fa-regular fa-location-dot fa-beat me-3"></i>Address: </label><span id="addrerss">123 Main St, City, State</span>
                           </div>
                         </div>
                     </div>

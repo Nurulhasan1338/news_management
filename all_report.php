@@ -20,29 +20,17 @@
     <link rel="stylesheet" href="./css_file/basic.css" />
     <style>
       .right-section {
-        width: 80%;
-        background: #2c3c7863;
-        color: white;
+        width: 95%;
+        background: #00000000;
+        color: rgb(0, 0, 0);
         border-radius: 2%;
-        height: 75vh;
-        overflow-y: scroll;
+        height: auto;
+        overflow-x: hidden;
+        overflow-y: visible;
+      
       }
 
-      .right-section::-webkit-scrollbar {
-        width: 10px;
-      }
-      .L-lable{
-        font-family: 'Fira Sans', sans-serif;
-      }
-      .right-section::-webkit-scrollbar-track {
-        -webkit-box-shadow: inset 0 0 6px rgba(255, 0, 0, 0.3);
-        border-radius: 10px;
-      }
-
-      .right-section::-webkit-scrollbar-thumb {
-        border-radius: 5px;
-        -webkit-box-shadow: inset 0 0 6px rgba(22, 61, 178, 0.731);
-      }
+      
       .submit {
         padding-left: 44px;
         padding-right: 108px;
@@ -55,19 +43,18 @@
 
       .form-control {
         background-color: rgb(153, 153, 153);
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
       }
 
       @media (max-width: 1000px) {
         .right-section {
-          width: 95%;
-          background: #2c3c7863;
-          color: white;
-          border-radius: 2%;
+          width: 98%;
+      
+          color: rgb(0, 0, 0);
+          border-radius: 6px;
           height: auto;
-          overflow-y: hidden;
           margin-bottom: 2rem;
-          padding-right: 3rem;
+          overflow-x: hidden;
         }
         .submit {
           padding-left: 31px;
@@ -82,7 +69,7 @@
   <body class="magic">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-2 p-0">
+        <div class="col-lg-2 p-0 left-section">
           <div class="menu-section">
             <div class="menu-content">
               <img
@@ -100,7 +87,7 @@
           </div>
         </div>
         <div class="col-lg-10 d-flex flex-column align-items-center pt-3">
-          <h2 class="display-2 section-title text-light">ALL NEWS</h2>
+          <h2 class="display-4 mb-lg-4  mb-md-3 section-title">ALL NEWS</h2>
           <div class="right-section">
             <div class="row">
             <div class="col-md-4 col-sm-6 col-lg-8 d-flex justify-content-around align-items-center filter-section">
@@ -147,7 +134,7 @@
             </div>
             </div>
 
-            <div class="p-3 block">
+            <div class="block">
 
                 <table class="table" id="employee-table">
                     <thead>
@@ -160,6 +147,158 @@
                       </tr>
                     </thead>
                     <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>John Doe</td>
+                        <td>Jaipur</td>
+                        <td>Manager</td>
+                        <td><button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button></td>
+                      </tr>
                       <tr>
                         <th scope="row">1</th>
                         <td>John Doe</td>
