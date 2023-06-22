@@ -18,53 +18,34 @@
     <link rel="stylesheet" href="./css_file/basic.css" />
     <style>
       .right-section {
-        width: 65%;
-        background: #2c3c7863;
+        width: 80%;
+        background: #00000091;
         color: white;
         border-radius: 2%;
-        height: auto;
-        overflow-y: scroll;
       }
-      .right-section::-webkit-scrollbar {
-        width: 10px;
-      }
+    
       .L-lable{
         font-family: 'Fira Sans', sans-serif;
-      }
-      .right-section::-webkit-scrollbar-track {
-        -webkit-box-shadow: inset 0 0 6px rgba(255, 0, 0, 0.3);
-        border-radius: 10px;
-      }
-
-      .right-section::-webkit-scrollbar-thumb {
-        border-radius: 5px;
-        -webkit-box-shadow: inset 0 0 6px rgba(22, 61, 178, 0.731);
       }
       .submit {
         margin-top: 14px;
       }
 
       .form-control {
-        background-color: #110e3c;
-        color: rgb(255, 255, 255);
+        background-color: #303033de;
+        color:white;
+
       }
 
       @media (max-width: 1000px) {
         .right-section {
-          width: 65%;
-          background: #2c3c7863;
+          width:95%;
+          background: #00000091;
           color: white;
-          border-radius: 2%;
-          height: auto;
-          overflow-y: hidden;
-          margin-bottom: 2rem;
-          padding-right: 3rem;
+          border-radius: 10px;
+          padding: 30px;
         }
-        .submit {
-          /* padding-left: 31px;
-          padding-right: 31px;
-          margin-top: 24px; */
-        }
+       
       }
     </style>
   </head>
@@ -90,10 +71,10 @@
           </div>
         </div>
         <div class="col-lg-10 d-flex flex-column justify-content-center align-items-center pt-3">
-          <h2 class="display-2 section-title text-light">Add Employee</h2>
+          <h2 class="display-4 section-title">Add Employee</h2>
           <div class="right-section">
             <form class="item-form slide-in">
-                <div class="row">
+                <div class="row d-flex justify-content-center">
                 <div class="col-md-10 col-sm-10 col-lg-5 form-group m-2">
                     <label for="name">Name</label>
                     <input type="text" class="form-control" id="name" name="name" required>
@@ -103,7 +84,7 @@
                     <input type="email" class="form-control" id="location" name="location" required>
                   </div>
                   </div>
-                  <div class="row">
+                  <div class="row d-flex justify-content-center">
                   <div class="col-md-10 col-sm-10 col-lg-5 form-group m-2">
                     <label for="location">Phone no.</label>
                     <input type="text" class="form-control" id="location" name="location" required>
@@ -118,7 +99,7 @@
                     </select>
                   </div>
                   </div>
-                  <div class="row">
+                  <div class="row d-flex justify-content-center">
                   <div class="col-md-10 col-sm-10 col-lg-5 form-group m-2">
                     <label for="category">Location</label>
                     <select class="form-control" id="category" name="category" required>
