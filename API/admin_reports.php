@@ -1,6 +1,6 @@
 <?php
 
-include_once('./dbconnect.php');
+include_once('./config.php');
 
 
 $sql = "SELECT * FROM admin_reports";
